@@ -8,6 +8,7 @@ namespace Hexagonal1.Controllers
     [Route("[controller]")]
     public class UsuarioController : ControllerBase
     {
+        [HttpPost("Login")]
         public IActionResult Login([FromBody] DTOs.LoginRequest request)
         {
             Console.WriteLine("Id: " + request.Id);
