@@ -1,0 +1,15 @@
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\bin\Debug\net10.0\AtividadesAulaC#.exe
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\bin\Debug\net10.0\AtividadesAulaC#.deps.json
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\bin\Debug\net10.0\AtividadesAulaC#.runtimeconfig.json
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\bin\Debug\net10.0\AtividadesAulaC#.dll
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\bin\Debug\net10.0\AtividadesAulaC#.pdb
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\obj\Debug\net10.0\AtividadesAulaC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\obj\Debug\net10.0\AtividadesAulaC#.AssemblyInfoInputs.cache
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\obj\Debug\net10.0\AtividadesAulaC#.AssemblyInfo.cs
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\obj\Debug\net10.0\AtividadesAulaC#.csproj.CoreCompileInputs.cache
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\obj\Debug\net10.0\AtividadesAulaC#.dll
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\obj\Debug\net10.0\refint\AtividadesAulaC#.dll
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\obj\Debug\net10.0\AtividadesAulaC#.pdb
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\obj\Debug\net10.0\AtividadesAulaC#.genruntimeconfig.cache
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\obj\Debug\net10.0\ref\AtividadesAulaC#.dll
+C:\Users\Aula\source\repos\AtividadesAulaC#\AtividadesAulaC#\obj\Debug\net10.0\Atividad.0FD34175.Up2Date

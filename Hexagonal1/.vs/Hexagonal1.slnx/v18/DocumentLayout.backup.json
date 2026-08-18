@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Hexagonal1\\DTOs\\LoginRequest.cs",
               "ToolTip": "C:\\Users\\Aula\\source\\repos\\Hexagonal1\\Hexagonal1\\DTOs\\LoginRequest.cs",
               "RelativeToolTip": "Hexagonal1\\DTOs\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-11T00:53:39.682Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "Hexagonal1\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\Aula\\source\\repos\\Hexagonal1\\Hexagonal1\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Hexagonal1\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-10T23:47:20.363Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "Hexagonal1\\Entities\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T23:43:18.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T23:43:18.186Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "Hexagonal1\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T23:37:09.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T23:37:09.234Z"
             },
             {
               "$type": "Document",
@@ -94,8 +92,7 @@
               "RelativeToolTip": "Hexagonal1\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T23:18:59.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T23:18:59.805Z"
             }
           ]
         }
