@@ -1,0 +1,14 @@
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\bin\Debug\net10.0\AtividadesClasse.exe
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\bin\Debug\net10.0\AtividadesClasse.deps.json
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\bin\Debug\net10.0\AtividadesClasse.runtimeconfig.json
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\bin\Debug\net10.0\AtividadesClasse.dll
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\bin\Debug\net10.0\AtividadesClasse.pdb
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\obj\Debug\net10.0\AtividadesClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\obj\Debug\net10.0\AtividadesClasse.AssemblyInfoInputs.cache
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\obj\Debug\net10.0\AtividadesClasse.AssemblyInfo.cs
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\obj\Debug\net10.0\AtividadesClasse.csproj.CoreCompileInputs.cache
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\obj\Debug\net10.0\AtividadesClasse.dll
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\obj\Debug\net10.0\refint\AtividadesClasse.dll
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\obj\Debug\net10.0\AtividadesClasse.pdb
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\obj\Debug\net10.0\AtividadesClasse.genruntimeconfig.cache
+C:\Users\Aula\source\repos\AtividadesClasse\AtividadesClasse\obj\Debug\net10.0\ref\AtividadesClasse.dll

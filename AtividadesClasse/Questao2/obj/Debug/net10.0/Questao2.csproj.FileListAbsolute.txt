@@ -1,0 +1,14 @@
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\bin\Debug\net10.0\Questao2.exe
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\bin\Debug\net10.0\Questao2.deps.json
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\bin\Debug\net10.0\Questao2.runtimeconfig.json
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\bin\Debug\net10.0\Questao2.dll
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\bin\Debug\net10.0\Questao2.pdb
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\obj\Debug\net10.0\Questao2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\obj\Debug\net10.0\Questao2.AssemblyInfoInputs.cache
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\obj\Debug\net10.0\Questao2.AssemblyInfo.cs
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\obj\Debug\net10.0\Questao2.csproj.CoreCompileInputs.cache
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\obj\Debug\net10.0\Questao2.dll
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\obj\Debug\net10.0\refint\Questao2.dll
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\obj\Debug\net10.0\Questao2.pdb
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\obj\Debug\net10.0\Questao2.genruntimeconfig.cache
+C:\Users\Aula\source\repos\AtividadesClasse\Questao2\obj\Debug\net10.0\ref\Questao2.dll
