@@ -50,7 +50,7 @@ namespace APIP1.Controllers
 
             if (!string.IsNullOrWhiteSpace(responsibleName))
             {
-                result = result.Where(t => t.Responsible.Name.Contains(responsibleName, StringComparison.OrdinalIgnoreCase));
+                result = result.Where(t => t.Responsible != null && t.Responsible.Name.Contains(responsibleName, StringComparison.OrdinalIgnoreCase));
             }
 
             if (!string.IsNullOrWhiteSpace(taskStatus))
@@ -76,25 +76,38 @@ namespace APIP1.Controllers
             {
                 return NotFound(new { message = "Tarefa não encontrada." });
             }
-            if ((selectedTask.TaskName != task.TaskName) && (task.TaskStatus == "INICADA"))
+
+            if (task.TaskStatus == "INICIADA")
             {
                 return BadRequest(new { message = "Não é permitido alterar o título da tarefa iniciada." });
             }
 
-            if (selectedTask.Responsible.Id != task.Responsible.Id)
+            if (selectedTask.Id != task.Id)
             {
-                return BadRequest(new { message = "Não é permitido alterar o responsável pela tarefa." });
+                return BadRequest(new { message = "Não é permitido alterar o ID da tarefa." });
             }
 
-            if (selectedTask.TaskStatus != task.TaskStatus)
+            if (task.TaskStatus != "" && task.Responsible != null && selectedTask.Responsible != null && selectedTask.Responsible.Id != task.Responsible.Id)
             {
-                return BadRequest(new { message = "Não é permitido alterar o status da tarefa nesta ação." });
+                return BadRequest(new { message = "Não é permitido alterar o responsável de uma tarefa com status já definido." });
             }
 
+            if (selectedTask?.Responsible?.Id <= 0 || string.IsNullOrWhiteSpace(selectedTask?.Responsible?.Name))
+            {
+                return BadRequest(new { message = "O responsável está vazio ou inválido." });
+            }
+
+            var responsible = ResponsibleController.responsibleDB.Any(r => r.Id == selectedTask.Responsible.Id);
+            if (!responsible)
+            {
+                return BadRequest(new { message = "O responsável informado não existe." });
+            }
+
+            task.Responsible = selectedTask.Responsible;
             task.TaskName = selectedTask.TaskName;
             task.TaskDescription = selectedTask.TaskDescription;
             task.TaskDate = selectedTask.TaskDate;
-            return Ok(new { message = "Status da tarefa atualizado com sucesso." });
+            return Ok(new { message = "Tarefa atualizada com sucesso." });
         }
 
         [HttpPut("MudarStatus/{id}")]
@@ -118,8 +131,8 @@ namespace APIP1.Controllers
             return Ok(new { message = "Status da tarefa atualizado com sucesso." });
         }
 
-        [HttpPut("AdicionarResponsavel/{id}")]
-        public IActionResult MudarResponsavelTarefa(int id, TaskItem selectedTask)
+        [HttpPut("AdicionarResponsavel/{id}/{responsibleId}")]
+        public IActionResult AdicionarResponsavelTarefa(int id, int responsibleId)
         {
             var task = taskDB.FirstOrDefault(t => t.Id == id);
 
@@ -128,7 +141,21 @@ namespace APIP1.Controllers
                 return NotFound(new { message = "Tarefa não encontrada." });
             }
 
-            return Ok();
+            var responsible = ResponsibleController.responsibleDB.FirstOrDefault(r => r.Id == responsibleId);
+
+            if (responsible == null)
+            {
+                return NotFound(new { message = "Responsável não encontrado." });
+            }
+
+            if ((task.Responsible != null) || (task.Responsible?.Id == responsible.Id))
+            {
+                return NotFound(new { message = "Não é possível adicionar mais de um responsável." });
+            }
+
+            task.Responsible = responsible;
+
+            return Ok("O responsável "+responsible.Name+" foi adicionado com sucesso.");
         }
 
         [HttpDelete("Cancelar/{id}")]
@@ -146,6 +173,7 @@ namespace APIP1.Controllers
                 return BadRequest(new { message = "Não é possível cancelar uma tarefa com um status definido." });
             }
 
+            taskDB.Remove(task);
             return Ok(new { message = "Tarefa cancelada com sucesso." });
         }
     }

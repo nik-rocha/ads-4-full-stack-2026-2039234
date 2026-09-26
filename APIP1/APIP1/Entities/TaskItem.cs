@@ -3,7 +3,7 @@
     public class TaskItem
     {
         public int Id { get; set; }
-        public Responsible Responsible { get; set; } = null;
+        public Responsible? Responsible { get; set; } = null;
         public string TaskName { get; set; }
         public string TaskDescription { get; set; }
         public DateTime TaskDate { get; set; }

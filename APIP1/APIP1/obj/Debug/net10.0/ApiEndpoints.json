@@ -1,0 +1,165 @@
+[
+  {
+    "ContainingType": "APIP1.Controllers.ResponsibleController",
+    "Method": "Criar",
+    "RelativePath": "Responsible/Criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newResponsible",
+        "Type": "APIP1.Entities.Responsible",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIP1.Controllers.ResponsibleController",
+    "Method": "Listar",
+    "RelativePath": "Responsible/Listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIP1.Controllers.ResponsibleController",
+    "Method": "Remover",
+    "RelativePath": "Responsible/Remover/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIP1.Controllers.TaskController",
+    "Method": "AdicionarResponsavelTarefa",
+    "RelativePath": "Task/AdicionarResponsavel/{id}/{responsibleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "responsibleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIP1.Controllers.TaskController",
+    "Method": "CancelarTarefa",
+    "RelativePath": "Task/Cancelar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIP1.Controllers.TaskController",
+    "Method": "CriarTarefa",
+    "RelativePath": "Task/Criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newTask",
+        "Type": "APIP1.Entities.TaskItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIP1.Controllers.TaskController",
+    "Method": "EditarTarefa",
+    "RelativePath": "Task/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "selectedTask",
+        "Type": "APIP1.Entities.TaskItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIP1.Controllers.TaskController",
+    "Method": "MudarStatusTarefa",
+    "RelativePath": "Task/MudarStatus/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "selectedTask",
+        "Type": "APIP1.Entities.TaskItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIP1.Controllers.TaskController",
+    "Method": "ProcurarTarefas",
+    "RelativePath": "Task/Procurar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "responsibleName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "taskStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
