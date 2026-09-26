@@ -83,24 +83,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aula\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Nicollas Rocha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\APIP1.csproj",
+      "projectUniqueName": "E:\\Programação\\ads-4-full-stack-2026-2039234\\APIP1\\APIP1\\APIP1.csproj",
       "projectName": "APIP1",
-      "projectPath": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\APIP1.csproj",
-      "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\obj\\",
+      "projectPath": "E:\\Programação\\ads-4-full-stack-2026-2039234\\APIP1\\APIP1\\APIP1.csproj",
+      "packagesPath": "C:\\Users\\Nicollas Rocha\\.nuget\\packages\\",
+      "outputPath": "E:\\Programação\\ads-4-full-stack-2026-2039234\\APIP1\\APIP1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Nicollas Rocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -158,7 +153,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

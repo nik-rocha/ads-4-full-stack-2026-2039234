@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RedeSocial1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b88a48bab4232e3062f807bb9dd6599060b9af0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67aec1a72f5a27fb79a026d436736a96036c11af")]
 [assembly: System.Reflection.AssemblyProductAttribute("RedeSocial1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RedeSocial1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

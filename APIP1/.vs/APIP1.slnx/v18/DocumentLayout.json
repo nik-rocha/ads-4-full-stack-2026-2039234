@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aula\\source\\repos\\APIP1\\",
+  "WorkspaceRootPath": "E:\\Programa\u00E7\u00E3o\\ads-4-full-stack-2026-2039234\\APIP1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA37DC0A-0C83-4805-841B-9BC540422B21}|APIP1\\APIP1.csproj|c:\\users\\aula\\source\\repos\\apip1\\apip1\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA37DC0A-0C83-4805-841B-9BC540422B21}|APIP1\\APIP1.csproj|solutionrelative:apip1\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0436DF36-05C0-231C-783C-9866F321B5E4}|APIP1\\APIP1.csproj|e:\\programa\u00E7\u00E3o\\ads-4-full-stack-2026-2039234\\apip1\\apip1\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0436DF36-05C0-231C-783C-9866F321B5E4}|APIP1\\APIP1.csproj|solutionrelative:apip1\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA37DC0A-0C83-4805-841B-9BC540422B21}|APIP1\\APIP1.csproj|c:\\users\\aula\\source\\repos\\apip1\\apip1\\entities\\responsible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA37DC0A-0C83-4805-841B-9BC540422B21}|APIP1\\APIP1.csproj|solutionrelative:apip1\\entities\\responsible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA37DC0A-0C83-4805-841B-9BC540422B21}|APIP1\\APIP1.csproj|c:\\users\\aula\\source\\repos\\apip1\\apip1\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA37DC0A-0C83-4805-841B-9BC540422B21}|APIP1\\APIP1.csproj|solutionrelative:apip1\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA37DC0A-0C83-4805-841B-9BC540422B21}|APIP1\\APIP1.csproj|c:\\users\\aula\\source\\repos\\apip1\\apip1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA37DC0A-0C83-4805-841B-9BC540422B21}|APIP1\\APIP1.csproj|solutionrelative:apip1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA37DC0A-0C83-4805-841B-9BC540422B21}|APIP1\\APIP1.csproj|c:\\users\\aula\\source\\repos\\apip1\\apip1\\apip1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CA37DC0A-0C83-4805-841B-9BC540422B21}|APIP1\\APIP1.csproj|solutionrelative:apip1\\apip1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0436DF36-05C0-231C-783C-9866F321B5E4}|APIP1\\APIP1.csproj|e:\\programa\u00E7\u00E3o\\ads-4-full-stack-2026-2039234\\apip1\\apip1\\controllers\\responsiblecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0436DF36-05C0-231C-783C-9866F321B5E4}|APIP1\\APIP1.csproj|solutionrelative:apip1\\controllers\\responsiblecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,66 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\Controllers\\TaskController.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\ads-4-full-stack-2026-2039234\\APIP1\\APIP1\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "APIP1\\Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\Controllers\\TaskController.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\ads-4-full-stack-2026-2039234\\APIP1\\APIP1\\Controllers\\TaskController.cs",
               "RelativeToolTip": "APIP1\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T23:12:51.287Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-09-26T17:40:53.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Responsible.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\Entities\\Responsible.cs",
-              "RelativeDocumentMoniker": "APIP1\\Entities\\Responsible.cs",
-              "ToolTip": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\Entities\\Responsible.cs",
-              "RelativeToolTip": "APIP1\\Entities\\Responsible.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAkAAAAAAAAAA==",
+              "Title": "ResponsibleController.cs",
+              "DocumentMoniker": "E:\\Programa\u00E7\u00E3o\\ads-4-full-stack-2026-2039234\\APIP1\\APIP1\\Controllers\\ResponsibleController.cs",
+              "RelativeDocumentMoniker": "APIP1\\Controllers\\ResponsibleController.cs",
+              "ToolTip": "E:\\Programa\u00E7\u00E3o\\ads-4-full-stack-2026-2039234\\APIP1\\APIP1\\Controllers\\ResponsibleController.cs",
+              "RelativeToolTip": "APIP1\\Controllers\\ResponsibleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T23:06:52.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\Entities\\TaskItem.cs",
-              "RelativeDocumentMoniker": "APIP1\\Entities\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\Entities\\TaskItem.cs",
-              "RelativeToolTip": "APIP1\\Entities\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T22:59:58.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "APIP1",
-              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\APIP1.csproj",
-              "RelativeDocumentMoniker": "APIP1\\APIP1.csproj",
-              "ToolTip": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\APIP1.csproj",
-              "RelativeToolTip": "APIP1\\APIP1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-21T22:59:04.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\Program.cs",
-              "RelativeDocumentMoniker": "APIP1\\Program.cs",
-              "ToolTip": "C:\\Users\\Aula\\source\\repos\\APIP1\\APIP1\\Program.cs",
-              "RelativeToolTip": "APIP1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T22:57:50.13Z",
+              "WhenOpened": "2026-09-26T17:40:50.578Z",
               "EditorCaption": ""
             }
           ]
